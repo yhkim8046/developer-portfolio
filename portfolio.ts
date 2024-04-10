@@ -36,7 +36,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "Building solid knowledge for backend skills, experiencing frontend skills and learning software development process",
+  subTitle: "Solidifying backend knowledge, exploring frontend skills and learning software development process with the best attitude",
   data: [
     {
       title: "Full stack Developer ",

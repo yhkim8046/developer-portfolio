@@ -4,6 +4,8 @@ import { Col, Container, Row } from "reactstrap";
 import FeedbackCard from "../components/FeedbackCard";
 import Fade from "react-reveal/Fade";
 
+//Extra Curriculum
+
 const Feedbacks = () => {
   return (
     feedbacks && (
@@ -17,7 +19,7 @@ const Feedbacks = () => {
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-info">Our Clients Feedback</h4>
+                <h4 className="display-3 text-info">Extra Curriculum</h4>
               </div>
             </div>
             <Row className="g-3">
