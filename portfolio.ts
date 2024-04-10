@@ -12,67 +12,67 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Yuhwan Kim",
+  title: "Hi all, I'm Yuhwan",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "A passionate backend developer currently pursuing my Bachelor's degree in Software Development at Auckland University of Technology. I am set to graduate in February 2025, and I'm eager to embark on an exciting journey into the world of DevOps.",
+  resumeLink: "https://drive.google.com/file/d/1Xv_Zn8iMB0eAPmAJLX_QUd1g-cFqPusp/view?usp=share_link",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "yhkim8046",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:yhkim8046@gmail.com",
+  linkedin: "https://www.linkedin.com/in/yuhwan-kim-1187a7274/",
+  github: "https://github.com/yhkim8046",
+  //instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Building solid knowledge for backend skills, experiencing frontend skills and learning software development process",
   data: [
     {
-      title: "Full Stack Development",
+      title: "Full stack Developer ",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building responsive static websites using Thymeleaf"),
+        emoji("⚡ Building RESTful APIs in Springboot & JPA  REST Framework"),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
+          skillName: "Java",
+          iconifyTag: "vscode-icons:file-type-java",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "Springboot",
+          iconifyTag: "/img/icons/common/JPA.jpeg",
         },
         {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
+          skillName: "JPA",
+          iconifyTag: "vscode-icons:file-type-java",
         },
         {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
+          skillName: "QueryDsl",
+          iconifyTag: "vscode-icons:file-type-querydsl",
         },
         {
-          skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
+          skillName: "Javascript",
+          iconifyTag: "vscode-icons:file-type-light-js",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
+          skillName: "React",
+          iconifyTag: "vscode-icons:file-type-react",
         },
         {
-          skillName: "Heroku",
+          skillName: "ReactNative",
           iconifyTag: "logos:heroku-icon",
         },
         {
@@ -80,7 +80,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "akar-icons:github-fill",
         },
         {
-          skillName: "Docker",
+          skillName: "Firebase",
           iconifyTag: "logos:docker-icon",
         },
       ],
@@ -90,124 +90,88 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    Stack: "Frontend", //Insert stack or technology you have experience in
+    progressPercentage: "60", //Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
-    progressPercentage: "90",
+    progressPercentage: "80",
   },
   {
-    Stack: "Programming",
-    progressPercentage: "95",
+    Stack: "Passions",
+    progressPercentage: "100",
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
-    desc: "",
-    grade: "Grade A",
+    schoolName: "Auckland University of Technology",
+    subHeader: "Bachelor of Computer and Information Sciences",
+    duration: "Febuary 2022 - Febuary 2025",
+    desc: "Specialised in Software Development",
+    grade: "",
     descBullets: [], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Full stack Devloper, Team Leader",
+    company: "The Design and Culture Lab",
+    companyLogo: "/img/icons/common/TheCultureAndDesignLab.png",
+    date: "Febuary 2024 - Present",
+    desc: "As a AUT R&D programme, Currently, developing a mobile learning/educational AI-powered platform.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    role: "Fullstack Developer",
+    company: "AIvestor",
+    companyLogo: "/img/icons/common/portfolioPal.png",
+    date: "July 2023 - November 2023",
+    desc: "Incorporated Firebase and external APIs into a React Native mobile app to enable live monitoring and administration of stocks and cryptocurrencies. Highlights encompass navigation, search, saving, virtual trading, performance analysis, interactive discussions, AI-powered support, and adaptable user settings.",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
-  {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
-  },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
-  },
-  {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
-  },
-  {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
-  },
-  {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Online Shopping website",
+    desc: "Using SpringBoot and JPA, backend-focused online shopping website",
+    github: "https://github.com/yhkim8046/PracticingJPA",
+    link: "",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
-    feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+    name: "Microsoft Student Accerlator",
+    role: "April 2024 ~ Present",
+    feedback: 
+      "I am currently participating in the New Zealand Microsoft Student Accelerator program, an immersive initiative designed to equip students with hands-on experience, practical skills, and industry exposure in the dynamic field of technology. Through this program, I am engaging in comprehensive training sessions, real-world project experiences, and valuable networking opportunities, all aimed at preparing me for a successful career in the tech industry.",
   },
   {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
+    name: "Private Springboot classes",
+    role: "November 2023 ~ Present",
     feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+      "I've attained a comprehensive understanding of fundamental Spring Boot concepts, including object-oriented programming, HTTP fundamentals, web MVC, and database essentials. Looking ahead, I'm delving into advanced database handling techniques including JPA and Querydsl, Exploring API development, and Optimisation Expected completion is before June 2024.",
   },
 ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Yuhwan Kim",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
+  author: "Yuhwan Kim",
   image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  url: "https://developer-portfolio-yhkim8046.app",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Yuhwan",
+    "Yuhwan Kim",
+    "yhkim8046",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Yuhwan Portfolio ",
+    "Yuhwan Kim Portfolio",
   ],
 };
